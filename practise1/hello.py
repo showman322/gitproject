@@ -1,2 +1,5 @@
-Hello Git
-Git is awesome
+print("hello world")
+print("how r u doing?")
+print("My name is Demid")
+print("heheheheheh")
+print("gugugaga")
