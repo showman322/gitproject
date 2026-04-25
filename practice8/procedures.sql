@@ -39,7 +39,7 @@ BEGIN
 
     IF array_length(p_names, 1) <> array_length(p_phones, 1) THEN
         wrong_data := 'Arrays must have the same length';
-        RETURN;
+        RETURN; 
     END IF;
 
     FOR i IN 1 .. array_length(p_names, 1)
